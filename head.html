@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="js/swiper.min.css"/>
+		<!--<link rel="stylesheet" type="text/css" href="css/index.css"/>-->
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+		.swiper-pagination-bullet{
+			/*background: white;*/
+			width: 223px;
+			height: 37px;
+			border-radius: 0;
+		}
+		.swiper-container {
+        width: 1146px;
+        height: 450px;   
+        margin-top: 20px;  
+        padding:12px;
+        background: white; 
+        }
+        .swiper-container img{
+        	width: 1146px;
+        	height: 400px;
+        	float: left;
+        }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+       
+    }
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header_main">
+				<div class="header_left">
+					你好！欢迎光临春之花零食大世界
+				</div>
+				<div class="header_right">
+				  <div id="users">
+				  	<a href="login.html" id="h_login">[&nbsp;登录&nbsp;]</a>
+					<a href="register.html" id="h_reg">[&nbsp;注册&nbsp;]</a>
+					<!--<p id="user1">欢迎回来，<span>admin</span></p>-->
+				  </div>
+					
+					<a href="##">我的订单</a>
+					<span>|</span>
+					<a href="##">我的收藏夹</a>
+					<span>|</span>
+					<a href="##">帮助中心</a>
+					<span>|</span>
+					<a href="##">品牌及门店</a>
+					<span>|</span>
+					<a href="##">营业证件</a>
+				</div>
+			</div>
+		</div>
+		<div class="headerbg">
+			<div class="headerbg_main">
+				<div class="logo">
+					<h1><a href="index.html"><span>春之花</span></a></h1>
+				     
+				</div>
+				<div class="lianjie">
+				     	<a href="##">www.czhmall.com</a>
+				 </div>
+				 <div class="shopping_car">
+				 	<span><img src="img/gwc_bg.png"/></span>
+				   <span>0</span>
+				 </div>
+				 <div class="headerbg_serch">
+				 	<i class="iconfont icon-sousu"></i>
+				 	<form action="" method="post">
+				 		<input type="text" name="" id="keywords" value="" placeholder="输入搜索关键字"/>
+				 		<input type="submit" name="search_btn" id="search_btn" value="搜索" />
+				 	</form>
+				 </div>
+			</div>
+		</div>
+		<!--top-nav-->
+		<div class="nav">
+			<div class="nav_main">
+				<div class="fenlei">
+					所有产品分类
+					<div id="fenlei_list">
+						<ul id="feilei_list1">
+							<li><a href="##"><span>饼干</span></a></li>
+							<li><a href="##"><span>德国橡皮糖</span></a></li>
+							<li><a href="##"><span>紫菜海苔</span></a></li>
+							<li><a href="##"><span>三盛食品</span></a></li>
+							<li><a href="##"><span>凉果蜜饯</span></a></li>
+							<li><a href="##"><span>薯片膨化</span></a></li>
+							<li><a href="##"><span>肉类制品</span></a></li>
+							<li><a href="##"><span>糖果</span></a></li>
+							<li><a href="##"><span>果冻零食</span></a></li>
+							<li><a href="##"><span>广东特产</span></a></li>
+							<li><a href="##"><span>冲调热饮</span></a></li>
+							<li><a href="##"><span>坚果零食</span></a></li>
+							<li><a href="##"><span>糕点</span></a></li>
+							<li><a href="##"><span>巧克力</span></a></li>
+							<li><a href="##"><span>健康食品</span></a></li>
+							<li><a href="##"><span>进口食品</span></a></li>
+							<li><a href="##"><span>其他零食</span></a></li>
+							<li><a href="##"><span>方便速食</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="nav_left">
+						<a href="index.html" id="firstPage">首页</a>
+						<span>|</span>
+						<a href="importfood.html">进口食品</a>
+						<span>|</span>
+						<a href="importfood.html">散称零食</a>
+						<span>|</span>
+						<a href="importfood.html">新货上架</a>
+						<span>|</span>
+						<a href="importfood.html" id="tjfood">特价商品</a>
+						<span>|</span>
+						<a href="importfood.html">热销推荐</a>
+						<span>|</span>
+						<a href="importfood.html">品牌专区</a>
+						
+					</div>
+			</div>
+		</div>
+		<div class="bannerwrap">
+		<div class="swiper-container">
+            <div class="swiper-wrapper">
+		        <div class="swiper-slide"><img src="img/banner1.jpg"/></div>
+		        <div class="swiper-slide"><img src="img/banner2.jpg"/></div>
+		        <div class="swiper-slide"><img src="img/banner3.jpg"/></div>
+		        <div class="swiper-slide"><img src="img/banner4.jpg"/></div>
+		        <div class="swiper-slide"><img src="img/banner5.jpg"/></div>
+             </div>
+		        <!-- Add Pagination -->
+		        <div class="swiper-pagination">hah1</div>
+
+		        <div class="swiper-button-next"></div>
+		        <div class="swiper-button-prev"></div>
+         </div>
+			
+			
+			
+		</div>
+
+	
+	</body>
+</html>
+<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	var tjshop=document.getElementById("tjfood")
+	function color(attr){
+        if(attr.style.color=="red"){
+            attr.style.color="black";
+        }
+        else{
+           attr.style.color="red";
+        }
+       
+         }
+         timer=setInterval(function(){
+           color(tjshop); 
+       },200);
+
+$(function(){
+
+    	var feilei=$(".fenlei");
+    	var feilei_list=$("#fenlei_list")
+    	feilei.mouseover(function(){
+    		feilei.css("cursor","pointer")
+    		feilei_list.stop(true).slideDown(500)
+    		feilei.mouseout(function(){
+    			feilei_list.stop(true).slideUp(500)
+    		})
+    	})
+  	
+    	
+    	//轮播图
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+    
+    //用户
+    var _user=$.cookie("user")
+    if(_user){
+    	$("#users").html('<p id="user1"><span>欢迎回来，</span><span>'+_user+'</span><span id="sx">[注销]</span></p>')
+    }else{
+    	$("#users").html('<a href="login.html" id="h_login">[&nbsp;登录&nbsp;]</a><a href="register.html" id="h_reg">[&nbsp;注册&nbsp;]</a>')
+    }
+    var zx=$("#sx");
+    zx.click(function(){
+ 	 $.cookie("user","",-1);
+ 	 $("#users").html('<a href="login.html" id="h_login">[&nbsp;登录&nbsp;]</a><a href="register.html" id="h_reg">[&nbsp;注册&nbsp;]</a>')
+    
+    })
+    
+    
+})
+  
+</script>

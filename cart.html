@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/cart.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/cart.css"/>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header_main">
+				<div class="header_left">
+					你好！欢迎光临春之花零食大世界
+				</div>
+				<div class="header_right">
+					<div id="users">
+				  	<a href="login.html" id="h_login">[&nbsp;登录&nbsp;]</a>
+					<a href="register.html" id="h_reg">[&nbsp;注册&nbsp;]</a>
+					<!--<p id="user1">欢迎回来，<span>admin</span></p>-->
+				  </div>
+					<a href="##">我的订单</a>
+					<span>|</span>
+					<a href="##">我的收藏夹</a>
+					<span>|</span>
+					<a href="##">帮助中心</a>
+					<span>|</span>
+					<a href="##">品牌及门店</a>
+					<span>|</span>
+					<a href="##">营业证件</a>
+				</div>
+			</div>
+		</div>
+		<div class="header_bg">
+			<div class="mian">
+				<h1><a href="index.html"><span>春之花</span></a></h1>
+				<div class="logo_right">
+				   <ul>
+				   	  <li class="li1"><a href="##">1.我的购物车</a>
+						   	 <em></em>
+						   	 <i></i> 	
+				   	  </li>
+				   	   <li class="li2"><a href="##">2.填写核对订单信息</a>
+						   	 <em></em>
+						   	 <i></i> 	
+				   	  </li>
+				   	  <li class="li3"><a href="##">3.成功提交订单</a>
+				   	  </li>
+				   </ul>
+			    </div>
+			</div>
+			
+		</div>
+		<div class="my_car">
+			<div class="car_top">
+				<h3>我的购物车</h3>
+			</div>
+			<div class="car_center">
+				<div class="car_menu">
+						<input type="checkbox" name="All" id="All" value="" />
+				         <p class="p1">全选</p>
+				         <p class="p2">商品</p>
+				         <p class="p3">属性</p>
+				         <p class="p4">价钱</p>
+				         <p class="p5">数量</p>
+				         <p class="p6">小计（元）</p>
+				         <p class="p7">操作</p>
+				</div>
+				<div class="cart_body">
+					
+				</div>
+				<div class="cart_foot">
+					<div class="fright">
+						<p>合计(不含运费)：<span id="total">¥7.90</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="gofz">
+			<div class="continue">
+			<a href="index.html">继续购物</a>
+			</div>
+			<div class="fz">
+				
+			</div>
+		</div>
+		
+	</body>
+</html>
+<script type="text/javascript">
+ //用户
+ $(function(){
+ 	 var _user=$.cookie("user")
+    if(_user){
+    	$("#users").html('<p id="user1"><span>欢迎回来，</span><span>'+_user+'</span><span id="sx">[注销]</span></p>')
+    }else{
+    	$("#users").html('<a href="login.html" id="h_login">[&nbsp;登录&nbsp;]</a><a href="register.html" id="h_reg">[&nbsp;注册&nbsp;]</a>')
+    }
+    var zx=$("#sx");
+    zx.click(function(){
+ 	 $.cookie("user","",-1);
+ 	 $("#users").html('<a href="login.html" id="h_login">[&nbsp;登录&nbsp;]</a><a href="register.html" id="h_reg">[&nbsp;注册&nbsp;]</a>')
+    
+    })
+ })
+   
+</script>

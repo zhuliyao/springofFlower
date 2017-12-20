@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/importfood.css"/>
+		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		
+	    <script src="js/template.js" type="text/javascript" charset="utf-8"></script>
+	   
+	    <script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+	     <script src="js/import.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<style type="text/css">
+		.nav_left a:nth-of-type(2){
+			background: red;
+			color: white !important;
+		}
+		
+	</style>
+	<body>
+		<div id="import_head"></div>
+		<!--客服中心-->
+         <div class="kefu_right">
+         	<a href="cart.html">
+         		<img src="img/sy_car.png"/>
+         	</a>
+         	<a href="##"><img src="img/sy_qq.png"/></a>
+         	<a href="##" id="to_top1">
+         		<img src="img/top.png"/>       		
+         	</a>
+         </div>
+		<div class="product_list">
+			<div class="layout">
+				<div class="f_titile">
+					<a href="index.html">首页</a><span>></span><a href="##">进口食品</a>
+				</div>
+				<div class="product_top">
+					<h3>
+						<p id="p1">进口商品</p><span>-</span><p>商品筛选</p>
+					</h3>
+					<ul class="p_f1">
+						<li class="li1">
+							<span class="span1">品牌：</span>
+							<div class="pinpai">
+								<a href="##" class="a1">全部</a>
+								<a href="##">丽芝士</a>
+								<a href="##">智迪思</a>
+								<a href="##">瑞丹</a>
+								<a href="##">雅米熊猫</a>
+								<a href="##">瑞泰国大坚果</a>
+								<a href="##">台湾哈密瓜</a>
+								<a href="##">中国大葡萄</a>
+								<a href="##">马来西亚咖啡</a>
+								<a href="##">备课室</a>
+								<a href="##">瑞丹</a>
+								<a href="##">马丹李</a>
+								<a href="##">榴莲干</a>
+								<a href="##">应琴</a>
+								<a href="##">皇冠</a>
+								<a href="##">愤怒的小鸟</a>
+								<a href="##">北京烤鸭</a>
+								<a href="##">天津大麻花</a>
+								<a href="##">狗不理包子</a>
+								<a href="##">煎饼果子</a>
+								<a href="##">麻辣小龙虾</a>
+								<a href="##">鱼香肉丝</a>
+								<a href="##">宫保鸡丁</a>
+								<a href="##">爆炸犹豫</a>
+								<a href="##">帝王蟹</a>
+								<a href="##">大饼卷鸡蛋</a>
+								<a href="##">黄焖鸡米饭</a>
+								<a href="##">牛肉汉堡包</a>
+								<a href="##">猪肉韭菜饺子</a>
+								<a href="##">重庆火锅</a>
+								<a href="##">榨菜肉丝炒饭</a>
+								<a href="##">羊肉串</a>
+							</div>
+						</li>
+						<li class="li2">
+							<span class="span1">价格：</span>
+							<div class="j_price">
+								<a href="##" class="a1">全部</a>
+								<a href="##">1-10元</a>
+								<a href="##">11-30元</a>
+								<a href="##">31-50元</a>
+								<a href="##">51-100元</a>
+								<a href="##">101-300元</a>
+								<a href="##">300以上</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+                <!--商品加载-->
+                <div class="product_select">
+                	<span>排序：</span>
+                	<a href="##" class="a2">推荐</a>
+                	<a href="##">价格</a>
+                	<a href="##">时间</a>
+                	<a href="##">评论数</a>
+                </div>
+				<ul id="im_list">
+					<script type="text/html" id="test">
+							{{each products as value i }}
+							  <li  data-id="{{value.id}}">
+								<div class="box">
+									<img src="{{value.images}}" data-id="{{value.id}}" class="food_img"/>
+									<p class="t1"><a href="##">{{value.title}}</a></p>
+								    <p class="t2">{{value.price}}</p>
+								    <p class="t3"></p>
+								    <p class="t4">点击收藏</p>
+								</div>
+							   </li>	
+							{{/each}}
+						</script>
+					<!--<li>
+						<div class="box">
+							<img src="images/food2-2.jpg"/>
+							<p class="t1"><a href="##">300g丰灵Tipo友谊牌牛奶味面包干</a></p>
+						    <p class="t2">￥13.80</p>
+						    <p class="t3"></p>
+						    <p class="t4">点击收藏</p>
+						</div>
+					</li>-->
+				</ul>
+				<div id="pager">
+					<a href="##" class="first">上一页</a>
+					<a href="##" class="last">下一页</a>
+					<!--<a href="##" class="page">2</a>
+					<a href="##" class="page">1</a>-->
+					
+					
+					
+					
+				</div>
+				
+				
+			</div>
+		</div>
+		<div id="im_footer">
+			
+		</div>
+		
+	</body>
+</html>
+<script type="text/javascript">
+	$("#import_head").load("head.html")
+	$("#im_footer").load("footer.html")
+	
+</script>
+<!--<script type="text/html" id="test">
+	{{each products as value i }}
+	  <li  data-id="{{value.id}}">
+		<div class="box">
+			<img src="{{value.images}}" data-id="{{value.id}}"/>
+			<p class="t1"><a href="##">{{value.title}}</a></p>
+		    <p class="t2">{{value.price}}</p>
+		    <p class="t3"></p>
+		    <p class="t4">点击收藏</p>
+		</div>
+	   </li>	
+	{{/each}}
+</script>-->

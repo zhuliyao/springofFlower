@@ -1,0 +1,323 @@
+[
+{
+	"id": "01",
+	"title": "300g丰灵Tipo友谊牌牛奶味面包干",
+	"price": "￥14.90",
+	"images": "images/food1.jpg",
+	"type":"牛奶味",
+	"lei":"newGoods"
+},
+{
+	"id": "02",
+	"title": "300g丰灵Tipo友谊牌榴莲味面包干",
+	"price": "￥18.80",
+	"images": "images/food2.jpg",
+	"type":"榴莲味",
+	"lei":"newGoods"
+},	
+{
+	"id": "03",
+	"title": "225g孜然黑胡椒味不规则饼",
+	"price": "￥7.90",
+	"images": "images/food3.jpg",
+	"type":"榴莲味",
+	"lei":"hot"
+},	
+{
+	"id": "04",
+	"title": "225g芝士味不规则饼",
+	"price": "￥7.90",
+	"images": "images/food4.jpg",
+	"type":"榴莲味",
+	"lei":"newGoods"
+},
+{
+	"id": "05",
+	"title": "225g酸奶洋葱味不规则饼",
+	"price": "￥7.90",
+	"images": "images/food5.jpg",
+	"type":"榴莲味",
+	"lei":"newGoods"
+},
+{
+	"id": "06",
+	"title": "225g酸奶番茄味不规则饼",
+	"price": "￥7.90",
+	"images": "images/food6.jpg",
+	"type":"榴莲味",
+	"lei":"newGoods"
+},
+{
+	"id": "07",
+	"title": "SanmiuSunflower新苗向日葵夹心饼干(柠檬味)【菲律宾制造！原装进口！】",
+	"price": "￥12.00",
+	"images": "images/food7.jpg",
+	"type":"榴莲味",
+	"lei":"newGoods"
+},
+{
+	"id": "08",
+	"title": "SanmiuSunflower新苗向日葵夹心饼干(芒果味)【菲律宾制造！原装进口！】",
+	"price": "￥12.00",
+	"images": "images/food7.jpg",
+	"type":"榴莲味",
+	"lei":"newGoods"
+},
+
+{
+	"id": "2-1",
+	"title": "200g丽芝士纳宝蒂奶酪威化饼干",
+	"price": "￥9.50",
+	"images": "images/food2-1.jpg",
+	"type":"榴莲味",
+	"lei":"newGoods"
+},
+{
+	"id": "2-2",
+	"title": "168gEDO巧克力熊仔饼",
+	"price": "￥13.80",
+	"images": "images/food2-2.jpg",
+	"type":"泰式风味",
+	"lei":"newGoods"
+},
+{
+	"id": "2-3",
+	"title": "700g(140g×5小包)韩国三养牌超辣火鸡面",
+	"price": "￥29.90",
+	"images": "images/food2-3.jpg",
+	"type":"泰式风味",
+	"lei":"newGoods"
+},
+{
+	"id": "2-4",
+	"title": "100g马来西亚愤怒的小鸟奶酪味薯片",
+	"price": "￥9.90",
+	"images": "images/food2-4.jpg",
+	"type":"泰式风味",
+	"lei":"newGoods"
+},
+{
+	"id": "2-5",
+	"title": "100g马来西亚愤怒的小鸟泰式味薯片",
+	"price": "￥9.50",
+	"images": "images/food2-5.jpg",
+	"type":"泰式风味",
+	"lei":"newGoods"
+},
+{
+	"id": "2-6",
+	"title": "100g马来西亚愤怒的小鸟洋葱味薯片",
+	"price": "￥9.90",
+	"images": "images/food2-6.jpg",
+	"type":"泰式风味",
+	"lei":"tehui"
+	
+},
+{
+	"id": "2-7",
+	"title": "100g马来西亚愤怒的小鸟番茄味薯片",
+	"price": "￥9.50",
+	"images": "images/food2-7.jpg",
+	"type":"泰式风味",
+	"lei":"tehui"
+},
+{
+	"id": "2-8",
+	"title": "40g萌豆牌蘑菇味土豆泥",
+	"price": "￥6.50",
+	"images": "images/food2-8.jpg",
+	"type":"泰式风味",
+	"lei":"tehui"
+},
+{
+	"id": "3-1",
+	"title": "138g民记鳕鱼风味鱼粒",
+	"price": "￥13.50",
+	"images": "images/food3-1.jpg",
+	"type":"泰式风味",
+	"lei":"tehui"
+},
+{
+	"id": "3-2",
+	"title": "80g无穷香辣味烤鸡爪",
+	"price": "￥11.90",
+	"images": "images/food3-2.jpg",
+	"type":"泰式风味",
+	"lei":"tehui"
+},
+{
+	"id": "3-3",
+	"title": "50g无穷香辣味烤鸡小翅",
+	"price": "￥11.90",
+	"images": "images/food3-3.jpg",
+	"type":"泰式风味",
+	"lei":"tehui"
+},
+{
+	"id": "3-4",
+	"title": "80g无穷盐焗鸡腿",
+	"price": "￥12.30",
+	"images": "images/food3-4.jpg",
+	"type":"泰式风味",
+	"lei":"tehui"
+},
+{
+	"id": "3-5",
+	"title": "50g无穷蜂蜜味烤鸡小翅",
+	"price": "￥11.90",
+	"images": "images/food3-4.jpg",
+	"type":"泰式风味",
+	"lei":"hot"
+},
+{
+	"id": "3-6",
+	"title": "80g无穷蜂蜜味烤鸡爪",
+	"price": "￥11.90",
+	"images": "images/food3-4.jpg",
+	"type":"泰式风味",
+	"lei":"hot"
+},
+{
+	"id": "3-7",
+	"title": "60g无穷烤鸡小腿",
+	"price": "￥9.90",
+	"images": "images/food3-4.jpg",
+	"type":"泰式风味",
+	"lei":"hot"
+},
+{
+	"id": "3-8",
+	"title": "13g无穷烤鸡小腿",
+	"price": "￥6.50",
+	"images": "images/food3-8.jpg",
+	"type":"泰式风味",
+	"lei":"hot"
+},
+{
+	"id": "4-1",
+	"title": "13g无穷烤鸡小腿",
+	"price": "￥1.50",
+	"images": "images/food4-1.jpg",
+	"type":"泰式风味",
+	"lei":"tejia"
+},
+{
+	"id": "4-2",
+	"title": "13g无穷烤鸡小腿",
+	"price": "￥3.20",
+	"images": "images/food4-2.jpg",
+	"type":"泰式风味",
+	"lei":"tejia"
+},
+{
+	"id": "4-3",
+	"title": "13g无穷烤鸡小腿",
+	"price": "￥2.50",
+	"images": "images/food4-3.jpg",
+	"type":"泰式风味",
+	"lei":"tejia"
+},
+{
+	"id": "4-4",
+	"title": "13g无穷烤鸡小腿",
+	"price": "￥5.30",
+	"images": "images/food4-4.jpg",
+	"type":"泰式风味",
+	"lei":"tejia"
+},
+{
+	"id": "4-5",
+	"title": "13g无穷烤鸡小腿",
+	"price": "￥4.20",
+	"images": "images/food4-5.jpg",
+	"type":"泰式风味",
+	"lei":"tejia"
+},
+{
+	"id": "4-6",
+	"title": "13g无穷烤鸡小腿",
+	"price": "￥7.50",
+	"images": "images/food4-6.jpg",
+	"type":"泰式风味",
+	"lei":"pinpai"
+},
+{
+	"id": "4-7",
+	"title": "13g无穷烤鸡小腿",
+	"price": "￥7.50",
+	"images": "images/food4-7.jpg",
+	"type":"泰式风味",
+	"lei":"pinpai"
+},
+{
+	"id": "4-8",
+	"title": "13g无穷烤鸡小腿",
+	"price": "￥7.50",
+	"images": "images/food4-8.jpg",
+	"type":"泰式风味",
+	"lei":"pinpai"
+},
+{
+	"id": "5-1",
+	"title": "13g无穷烤鸡小腿",
+	"price": "￥7.50",
+	"images": "images/food5-1.jpg",
+	"type":"泰式风味",
+	"lei":"pinpai"
+},
+{
+	"id": "5-2",
+	"title": "13g无穷烤鸡小腿",
+	"price": "￥7.50",
+	"images": "images/food5-2.jpg",
+	"type":"泰式风味",
+	"lei":"pinpai"
+},
+{
+	"id": "5-3",
+	"title": "13g无穷烤鸡小腿",
+	"price": "￥7.50",
+	"images": "images/food5-3.jpg",
+	"type":"泰式风味",
+	"lei":"pinpai"
+},
+{
+	"id": "5-4",
+	"title": "13g无穷烤鸡小腿",
+	"price": "￥7.50",
+	"images": "images/food5-4.jpg",
+	"type":"泰式风味",
+	"lei":"pinpai"
+},
+{
+	"id": "5-5",
+	"title": "13g无穷烤鸡小腿",
+	"price": "￥7.50",
+	"images": "images/food5-5.jpg",
+	"type":"泰式风味",
+	"lei":"pinpai"
+},
+{
+	"id": "5-6",
+	"title": "13g无穷烤鸡小腿",
+	"price": "￥7.50",
+	"images": "images/food5-6.jpg",
+	"type":"泰式风味",
+	"lei":"pinpai"
+},
+{
+	"id": "5-7",
+	"title": "13g无穷烤鸡小腿",
+	"price": "￥7.50",
+	"images": "images/food5-7.jpg",
+	"type":"泰式风味"
+},
+{
+	"id": "5-8",
+	"title": "13g无穷烤鸡小腿",
+	"price": "￥7.50",
+	"images": "images/food5-8.jpg",
+	"type":"泰式风味"
+}
+
+]
